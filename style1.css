@@ -1,0 +1,18 @@
+body{
+    margin: 300px;
+}
+div{
+    border-radius: 30%;
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    transition: all;
+}
+div:hover{
+    transition-property: background;
+    background-color: pink;
+    transition-timing-function: ease-in;
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
+    transform: rotate(45deg);
+}
